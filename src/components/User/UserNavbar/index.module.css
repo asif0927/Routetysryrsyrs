@@ -1,0 +1,37 @@
+.ahd{
+    display: flex;
+    flex-direction: row;
+}
+.maindiv{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    margin-bottom: 30px;
+}
+.paragraph{
+   font-size: 30px;
+   margin-left: 10px;
+   color: white;
+}
+a{
+    color: white;
+    padding: 10px 20px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-right: 15px;
+}
+@media only screen and (max-width: 1020px)  {
+    li{
+       display: none;
+    }
+    .paragraph{
+        font-size: 19px;
+    }
+}
